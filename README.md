@@ -3,8 +3,11 @@ A simple Arduino-based tachometer, based on [the design by Great Scott](https://
 
 ## Components
 1x Arduino (any should do, I used Nano)
+
 1x HW201 infrared (IR) proximity sensor
+
 1x breadboard (optional)
+
 Wires/solder as needed
 
 ## Assembly
