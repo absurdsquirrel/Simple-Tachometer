@@ -10,15 +10,15 @@ Wires/solder as needed
 ## Assembly
 1. Connect VCC and GND on the sensor to 5V and GND on the Arduino
 2. Connect the OUT pin on the sensor to pin D8 on the Arduino
-  -  If you use a different Arduino, you may need to use a differnt pin for this
-  -  This is selected as the ATmega328P ICP1 (Timer/Counter1 Input Capture Input) pin
+   -  If you use a different Arduino, you may need to use a differnt pin for this
+   -  This is selected as the ATmega328P ICP1 (Timer/Counter1 Input Capture Input) pin
 
 ## Use
 1. Apply a reflective marker to the object you wish to measure the RPM of
 2. Point the sensor at the target surface
-  - For best results, the sensor should be fixed to a stable surface
-  - Sensing range can be adjusted with the potentiometer on the HW201
-4. The Arduino outputs timestamped measurements to the USB serial port, so use the IDE serial monitor or another connected terminal to read it
+   - For best results, the sensor should be fixed to a stable surface
+   - Sensing range can be adjusted with the potentiometer on the HW201
+3. The Arduino outputs timestamped measurements to the USB serial port, so use the IDE serial monitor or another connected terminal to read it
 
 ## Caveats
 1. Because of the specific use-case I built this for, the code assumes the measured object is slowing down and ignores measurements that are faster than the previous one
