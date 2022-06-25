@@ -25,6 +25,7 @@ Wires/solder as needed
 
 ## Caveats
 1. Because of the specific use-case I built this for, the code assumes the measured object is slowing down and ignores measurements that are faster than the previous one
+2. Readings are unreliable at low RPM and are ignored, similarly with very high RPM
 
 ## Possible improvements
 1. Rechargable battery power
